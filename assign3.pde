@@ -13,8 +13,8 @@ void setup() {                                //setup
   x = 0;y = floor(random(30, 410));
   fighter = loadImage("img/fighter.png");     // fighter
   FTx = 580; FTy = 150;
-  bg1x = 0 ;
-  bg1 = loadImage("img/bg1.png");             // BG img
+  bg1x = 0 ;                                  // BG img
+  bg1 = loadImage("img/bg1.png");
   bg2 = loadImage("img/bg2.png"); 
 }
 void draw() {                                                 //draw
